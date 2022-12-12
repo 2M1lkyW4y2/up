@@ -1,3 +1,18 @@
+@font-face {
+    font-family: "Grandstander";
+    src: url(/public/Grandstander-VariableFont_wght.ttf);
+}
+a,h1, h2, h3, h4, h5, h6, p, li {
+    font-family: "GrandstanderOpenSans";
+}
 .age{
     height: 70%;
+}
+.text {
+    color: black;
+    font-size: 17px;
+    text-decoration: none;
+}
+.text:hover {
+    color: red;
 }

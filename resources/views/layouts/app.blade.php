@@ -19,13 +19,14 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+
 </head>
 <body>
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    <img src="\public\ТЗ\logo.svg" alt="" class="col-lg-10">
+                    <img src="\public\tz\logo.svg" alt="" class="col-lg-10">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
@@ -38,9 +39,9 @@
                     </ul>
 
                     <div>
-                        <a href="#information">О нас</a>
-                        <a href="#price">Каталог</a>
-                        <a href="#place">Где нас найти</a>
+                        <a href="#information" class="text p-2">О нас</a>
+                        <a href="#price" class="text p-2">Каталог</a>
+                        <a href="#place" class="text p-2">Где нас найти?</a>
                     </div>
 
                     <!-- Right Side Of Navbar -->
