@@ -7,7 +7,8 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>Funny Comics Land</title>
+    <link rel="icon" href="\public\tz\logo.svg">
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -39,9 +40,9 @@
                     </ul>
 
                     <div>
-                        <a href="#information" class="text p-2">О нас</a>
-                        <a href="#price" class="text p-2">Каталог</a>
-                        <a href="#place" class="text p-2">Где нас найти?</a>
+                        <a href="http://xzgdsvc-m1.wsr.ru/public/product" class="text p-2">О нас</a>
+                        <a href="http://xzgdsvc-m1.wsr.ru/public/catalog" class="text p-2">Каталог</a>
+                        <a href="http://xzgdsvc-m1.wsr.ru/public/map" class="text p-2">Где нас найти?</a>
                     </div>
 
                     <!-- Right Side Of Navbar -->

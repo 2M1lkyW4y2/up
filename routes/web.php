@@ -23,8 +23,7 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Route::get('/', function () { return 'главная страница сайта';
-});
+Route::get('/',  [App\Http\Controllers\ProductController::class, 'site']);
 Route::get('/posts/', function () { return 'список постов'; });
 
     Route::get('/post/1/', function () { return 'один пост'; });
@@ -159,3 +158,7 @@ Route::get('test', [App\Http\Controllers\zad76::class, 'show']);
 Route::get('test', [App\Http\Controllers\HomeS::class, 'show']);
 
 Route::get('/product', [App\Http\Controllers\ProductController::class, 'site']);
+
+Route::get('/map', [App\Http\Controllers\MapController::class, 'Map']);
+
+Route::get('/catalog', [App\Http\Controllers\CatalogController::class, 'Catalog']);
