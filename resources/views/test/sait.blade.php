@@ -16,7 +16,7 @@
             <h3>Новинки компании</h3>
         </div>
     <div class="container">
-        <div class="d-flex justify-content-center aligh-items-center">
+        <div class="d-flex justify-content-center aligh-items-center flex-wrap">
             <div id="carouselExampleCaptions" class="carousel slide w-25 h-25 px-3" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -27,16 +27,16 @@
                 <div class="carousel-inner ">
                     @foreach($comic as $comi)
                     @if($loop->first)
-                    <div class="carousel-item active age">
-                        <img class="img-fluid" src="{{$comi->img}}" class="d-block " alt="">
+                    <div class="carousel-item active ">
+                        <img class="img-fluid age" src="{{$comi->img}}" class="d-block " alt="">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>{{$comi->name}}</h5>
                             <p>{{$comi->price}}</p>
                         </div>
                     </div>
                     @else
-                    <div class="carousel-item age">
-                        <img class="img-fluid" src="{{$comi->img}}" class="d-block " alt="...">
+                    <div class="carousel-item ">
+                        <img class="img-fluid age" src="{{$comi->img}}" class="d-block " alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>{{$comi->name}}</h5>
                             <p>{{$comi->price}}</p>
