@@ -161,4 +161,4 @@ Route::get('/product', [App\Http\Controllers\ProductController::class, 'site']);
 
 Route::get('/map', [App\Http\Controllers\MapController::class, 'Map']);
 
-Route::get('/catalog', [App\Http\Controllers\CatalogController::class, 'Catalog']);
+Route::get('/price', [App\Http\Controllers\ProductController::class, 'Price']);

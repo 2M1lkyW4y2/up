@@ -41,7 +41,7 @@
 
                     <div>
                         <a href="http://xzgdsvc-m1.wsr.ru/public/product" class="text p-2">О нас</a>
-                        <a href="http://xzgdsvc-m1.wsr.ru/public/catalog" class="text p-2">Каталог</a>
+                        <a href="http://xzgdsvc-m1.wsr.ru/public/price" class="text p-2">Каталог</a>
                         <a href="http://xzgdsvc-m1.wsr.ru/public/map" class="text p-2">Где нас найти?</a>
                     </div>
 
