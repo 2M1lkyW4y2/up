@@ -5,8 +5,8 @@
     <div class="d-flex align-items-center justify-content-around">
         <h3>О нас</h3>
     </div>
-    <div class="flex-column d-flex align-items-center justify-content-center pt-5">
-        <img src="\public\tz\logo.svg" alt="" class="">
+    <div class="flex-column d-flex align-items-center justify-content-center pt-2">
+        <img src="\public\tz\logotip.svg" alt="" class="photo pb-3">
         <p class="tagline">ЧИТАЙ И УДОВОЛЬСТВИЕ ОТ ПРОЧТЕНИЯ ПОЛУЧАЙ</p>
         <link rel="stylesheet" href="/public/css/style.css">
     </div>
@@ -27,16 +27,16 @@
                 <div class="carousel-inner ">
                     @foreach($comic as $comi)
                     @if($loop->first)
-                    <div class="carousel-item active ">
-                        <img class="img-fluid age" src="{{$comi->img}}" class="d-block " alt="">
+                    <div class="carousel-item active">
+                        <img class="img-fluid age" src="{{$comi->img}}" class="d-block " alt="1">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>{{$comi->name}}</h5>
                             <p>{{$comi->price}}</p>
                         </div>
                     </div>
                     @else
-                    <div class="carousel-item ">
-                        <img class="img-fluid age" src="{{$comi->img}}" class="d-block " alt="...">
+                    <div class="carousel-item">
+                        <img class="img-fluid age" src="{{$comi->img}}" class="d-block " alt="2">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>{{$comi->name}}</h5>
                             <p>{{$comi->price}}</p>

@@ -162,3 +162,7 @@ Route::get('/product', [App\Http\Controllers\ProductController::class, 'site']);
 Route::get('/map', [App\Http\Controllers\MapController::class, 'Map']);
 
 Route::get('/price', [App\Http\Controllers\ProductController::class, 'Price']);
+
+
+Route::get('/price/{name}/{nap}', [App\Http\Controllers\ProductController::class, 'showSort']);
+Route::get('/price/{name}', [App\Http\Controllers\ProductController::class, 'showFilter']);
