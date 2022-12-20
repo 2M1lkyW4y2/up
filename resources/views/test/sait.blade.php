@@ -3,7 +3,7 @@
 
 <div class="container">
     <div class="d-flex align-items-center justify-content-around">
-        <h3>О нас</h3>
+        <h3><b>О нас</b></h3>
     </div>
     <div class="flex-column d-flex align-items-center justify-content-center pt-2">
         <img src="\public\tz\logotip.svg" alt="" class="photo pb-3">
@@ -12,8 +12,8 @@
     </div>
 </div>
 <section>
-        <div class="d-flex align-items-center justify-content-around">
-            <h3>Новинки компании</h3>
+        <div class="d-flex align-items-center justify-content-around pt-4">
+            <h3><b>Новинки компании</b></h3>
         </div>
     <div class="container">
         <div class="d-flex justify-content-center aligh-items-center flex-wrap">
